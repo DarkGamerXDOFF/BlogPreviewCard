@@ -37,12 +37,14 @@ body {
     transition: var(--trans-time);
 }
 
-.container:hover {
+.container:hover,
+.container:focus {
     box-shadow: 14px 14px hsl(var(--clr-black-hsl));
     transition: var(--trans-time);
 }
 
-.container:hover h1 {
+.container:hover h1,
+.container:focus h1 {
     color: hsl(var(--clr-yellow-hsl));
     transition: var(--trans-time);
 }
